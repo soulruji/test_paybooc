@@ -1,22 +1,41 @@
 import React from 'react';
+import { StickyContainer, Sticky } from 'react-sticky';
+
 import Banner from "./componenets/Banner";
 import Navigation from "./componenets/Navigation";
 
+import './App.scss';
 
 class App extends React.Component {
+
   render() {
-    var settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
     return (
-      <div>
-        <Navigation />
-        <Banner {...settings} />
-      </div>
+      <StickyContainer>
+        {
+          <div className="App">
+            <Banner />
+            <Banner />
+          </div>
+        }
+        <Sticky topOffset={80}>
+          {({
+            style,
+            isSticky,
+            wasSticky,
+            distanceFromTop,
+            distanceFromBottom,
+            calculatedHeight
+          }) => (
+            <header style={style}>
+              {<Navigation />}
+            </header>
+          )}
+        </Sticky>
+        {    <div className="App">
+            <Banner />
+            <Banner />
+          </div>  }
+      </StickyContainer>
     );
   }
 }
