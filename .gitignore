@@ -1,4 +1,3 @@
-
 # Logs
 logs
 *.log
@@ -35,6 +34,3 @@ Modernizr_build/
 # Yarn Integrity file
 .yarn-integrity
 
-build
-release/assets/fonts
-release/assets/fonts_noto
