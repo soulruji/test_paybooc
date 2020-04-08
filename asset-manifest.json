@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/test_paybooc/static/css/main.8246afa0.chunk.css",
+    "main.js": "/test_paybooc/static/js/main.0e1604a6.chunk.js",
+    "main.js.map": "/test_paybooc/static/js/main.0e1604a6.chunk.js.map",
+    "runtime-main.js": "/test_paybooc/static/js/runtime-main.b69ce0d1.js",
+    "runtime-main.js.map": "/test_paybooc/static/js/runtime-main.b69ce0d1.js.map",
+    "static/css/2.4aafeaf2.chunk.css": "/test_paybooc/static/css/2.4aafeaf2.chunk.css",
+    "static/js/2.97e68809.chunk.js": "/test_paybooc/static/js/2.97e68809.chunk.js",
+    "static/js/2.97e68809.chunk.js.map": "/test_paybooc/static/js/2.97e68809.chunk.js.map",
+    "index.html": "/test_paybooc/index.html",
+    "precache-manifest.89b3c330aee29b5308c4fa06c44df628.js": "/test_paybooc/precache-manifest.89b3c330aee29b5308c4fa06c44df628.js",
+    "service-worker.js": "/test_paybooc/service-worker.js",
+    "static/css/2.4aafeaf2.chunk.css.map": "/test_paybooc/static/css/2.4aafeaf2.chunk.css.map",
+    "static/css/main.8246afa0.chunk.css.map": "/test_paybooc/static/css/main.8246afa0.chunk.css.map",
+    "static/js/2.97e68809.chunk.js.LICENSE.txt": "/test_paybooc/static/js/2.97e68809.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/test_paybooc/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b69ce0d1.js",
+    "static/css/2.4aafeaf2.chunk.css",
+    "static/js/2.97e68809.chunk.js",
+    "static/css/main.8246afa0.chunk.css",
+    "static/js/main.0e1604a6.chunk.js"
+  ]
+}
