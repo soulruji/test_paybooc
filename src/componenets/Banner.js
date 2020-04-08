@@ -8,13 +8,13 @@ class Banner extends React.Component {
 	render() {
 		const settings = {
 			dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      centerMode: true,
-      centerPadding: '20px'
+			infinite: false,
+			speed: 500,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			centerMode: true,
+			centerPadding: '20px'
 		}
 
     return (

@@ -16,12 +16,13 @@ $bg-color: red;
   	position: fixed; top: 0; left: 0; right: 0;
   }
 }
-.banner-set { padding: 50px 20px; background: #f1f4f7; }
-.title { font-size: 20px; font-weight: bold; margin-bottom: 20px;}
+.banner-set { padding: 50px 0; background: #f1f4f7; }
+.title { padding: 0 20px; font-size: 20px; font-weight: bold; margin-bottom: 20px;}
 .banner { width: 100%;
-	.slick-list { margin: 0 -20px; }
-	.slick-item { width: 100%; height: 200px; margin-left: -20px; padding-left: 20px;
-		h3 { background: #dedede; height: 100%; margin: 0 0; border-radius: 20px; text-align: center}
+  .slick-track {  }
+	.slick-list { padding: 0 0 0 0; }
+	.slick-item { width: 100%; height: 200px; 
+		h3 { margin: 0 12px 0 0; background: #dedede; height: 100%; border-radius: 20px; text-align: center}
 	}
 
 	.slick-prev { left: 0; }
@@ -29,3 +30,27 @@ $bg-color: red;
 
 }
 
+
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100; /* this is optional and should be different for every project */
+}
+
+.sticky-wrapper {
+  position: relative;
+  height: 3rem; /* We need to change this value */
+}
+
+.sticky .sticky-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.3);
+
+}
